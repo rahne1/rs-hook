@@ -1,15 +1,16 @@
 # rs-hook
 
-A lightweight, production-ready Discord webhook library for Rust built on `hyper`.
+A lightweight Discord webhook library for Rust built on `hyper`.
 
-**New to Rust or webhooks?** Start with our [Getting Started Guide](GETTING_STARTED.md) 🚀
+**New to Rust or webhooks?** Start with the [Getting Started Guide](GETTING_STARTED.md) 🚀
+
+(mostly) vibecoded by GLM 4.7 on opencode as a test, this will eventually improve as I need it to.
 
 ## Features
 
 - **Simple & Intuitive API**: Builder patterns for messages and embeds
 - **Full Discord Support**: Rich embeds, attachments, allowed mentions, TTS
 - **Modular Design**: Easy to integrate into larger codebases
-- **Production Ready**: Comprehensive error handling and validation
 - **Type Safe**: Leverages Rust's type system for compile-time safety
 
 ## Installation
@@ -22,6 +23,8 @@ rs-hook = "0.1"
 ```
 
 ## Quick Start
+
+ps. use .env
 
 ```rust
 use rs_hook::{MessageBuilder, Webhook};
@@ -205,10 +208,3 @@ async fn send_webhook() -> Result<()> {
 - Maximum 25 embed fields per embed
 - Maximum 10 attachments per message
 
-## License
-
-MIT
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.

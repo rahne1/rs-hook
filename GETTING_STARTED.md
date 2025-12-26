@@ -4,7 +4,7 @@ A beginner's guide to sending Discord webhooks using Rust.
 
 ## What is rs-hook?
 
-`rs-hook` is a Rust library that lets you send messages to Discord channels using webhooks. Think of it as a programmatic way to post messages, embeds, and files to Discord.
+`rs-hook` is a Rust library that lets you send messages to Discord channels using webhooks.
 
 ## Prerequisites
 
